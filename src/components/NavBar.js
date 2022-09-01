@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { BeakerIcon } from '@heroicons/react/24/solid'
-
 const NavBar = () => {
   return (
     <div className='w-screen z-10 h-[80px] bg-zinc-200 fixed'>

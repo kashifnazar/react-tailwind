@@ -1,9 +1,11 @@
-import './App.css';
-import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <NavBar />
+    <div className='grid grid-cols-[1fr_4fr] gap-1'>
+      <div className="col-span-2">Top bar</div>
+      <div className="">NavBar</div>
+      <div>Body</div>
+    </div>
   );
 }
 
