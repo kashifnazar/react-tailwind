@@ -7,7 +7,7 @@ import React from 'react'
  */
 const NavBarLink = ({Icon, title}) => {
   return (
-    <div className='flex p-3 active:bg-gray-300 hover:bg-gray-200'>
+    <div className='flex p-3 flex-col items-center text-xs md:flex-row md:text-base active:bg-gray-300 hover:bg-gray-200'>
           <Icon className='w-6' />
           <p className='px-5'>{title}</p>
         </div>
