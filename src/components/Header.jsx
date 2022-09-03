@@ -7,7 +7,7 @@ const Header = () => {
     <div className='flex justify-between items-center'>
       <div className='flex items-center'>
         <Bars3Icon className='w-10' />
-        YouTube Logo
+        <img className='h-8 ml-3' src="/images/logo.png" alt="YouTube" />
       </div>
       <div className='flex border-gray-300 border-2 rounded-3xl px-4 py-2 items-center'>
         <input type="text" placeholder='Search' className='border-transparent active:outline-none focus:outline-none' />
